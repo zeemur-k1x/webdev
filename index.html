@@ -4,88 +4,84 @@
 <title>Soup Kitchen</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="codemirror.css">
+<link rel="stylesheet" href="main.css">
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
-}
 </style>
 </head>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="menubar w3-button"><img src="ca_soup.png" alt="Soup Kitchen" width="173.5" height="81.5"></a>
+<!-- Navbar -->
+<div class="top">
+  <div class="bar white padding64 card" style="letter-spacing:2px;">
+    <a href="#home" class="menubar button"><img src="images/ca_soup.png" alt="Soup Kitchen" width="173.5" height="81.5"></a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="right w3-hide-small">
-      <a href="#about" class="menubar w3-button">About</a>
-      <a href="#menu" class="menubar w3-button">Menu</a>
-      <a href="#contact" class="menubar w3-button">Contact</a>
+    <div class="right hide-small">
+      <a href="#about" class="menubar button2 padding32">About</a>
+      <a href="#menu" class="menubar button2 padding32">Menu</a>
+      <a href="#contact" class="menubar button2 padding32">Contact</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="soupagain.png" alt="Soup Catering" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge"></h1>
+<header class="display-container content wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="image" src="images/soupagain.png" alt="Soup Catering" width="1600" height="800">
+  <div class="display-bottomleft padding-large opacity">
+    <h1 class="xxlarge"></h1>
   </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
+<div class="content" style="max-width:1000px">
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="mexbeansoup.png" class="w3-round w3-image w3-opacity-min" alt="Tabled" width="600" height="750">
+  <div class="row padding-64" id="about">
+    <div class="col m6 padding-large hide-small">
+     <img src="images/mexbeansoup.png" class="round image opacity-min" alt="Tabled" width="600" height="750">
     </div>
 
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center"></h1><br>
-      <h2 class="w3-center">About Us</h2>
-      <h5 class="w3-center">Too few cooks</h5>
-      <p class="w3-large">Our catering service consists two chefs and a specialized menu themed around preparation of legumes and nuts. The ingredients listed under each menu item are subject to change upon request.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">We also do local deliveries.</p>
+    <div class="col m6 padding-large">
+      <h1 class="center"></h1><br>
+      <h2 class="center">About Us</h2>
+      <h5 class="center">Too few cooks</h5>
+      <p class="large">A catering service based in the Greater Los Angeles area. Our service consists two chefs and a specialized menu themed around preparation of legumes and nuts. The ingredients listed under each menu item aren't complete and are subject to change upon request.</p>
+      <p class="large text-grey hide-medium">We also do local deliveries. <br>Email us with details of your event and we will be happy to provide a price. </p>
     </div>
   </div>
 
   <hr>
 
   <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
+  <div class="row padding-64" id="menu">
+    <div class="col l6 padding-large">
+      <h1 class="center">Our Menu</h1><br>
       <h4>Black-eyed pea</h4>
-      <p class="w3-text-grey">Light consistency of peas, coconut milk, vegetable stock, bell peppers and leeks</p><br>
+      <p class="text-grey">Light consistency of peas, coconut milk, vegetable stock, bell peppers and leeks</p><br>
 
       <h4>Tuscan bean</h4>
-      <p class="w3-text-grey">Hearty and substantial soup made with cannellini beans, baby spinach leaves, spring greens, chicken stock, carrots and onion</p><br>
+      <p class="text-grey">Hearty and substantial soup made with cannellini beans, baby spinach leaves, spring greens, chicken stock, carrots and onion</p><br>
 
       <h4>Bean and rosemary</h4>
-      <p class="w3-text-grey">Robust, garlicky and fragrant soup with rosemary, sage, potatoes, borlotti bean, celery ribs, chicken stock and onion</p><br>
+      <p class="text-grey">Robust, garlicky and fragrant soup with rosemary, sage, potatoes, borlotti bean, celery ribs, chicken stock and onion</p><br>
 
       <h4>Mexican chili bean</h4>
-      <p class="w3-text-grey">Thick, family soup with ground beef, hot chili powder, chicken or vegetable stock on request, parsley, oregano, bell pepper and onion</p><br>
+      <p class="text-grey">Thick, family soup with ground beef, hot chili powder, chicken or vegetable stock on request, parsley, oregano, bell pepper and onion</p><br>
 
       <h4>Creamy kidney bean</h4>
-      <p class="w3-text-grey">Full flavor kidney beans soaked overnight, made with red onion, garlic, ginger, green chile, lime juce and for garnish, red radish and cilantro leaves</p>
+      <p class="text-grey">Full flavor kidney beans soaked overnight, made with red onion, garlic, ginger, green chile, lime juce and for garnish, red radish and cilantro leaves</p>
     </div>
 
-    <div class="w3-col l6 w3-padding-large">
-      <img src="dried.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:90%">
+    <div class="col l6 padding-164">
+      <img src="images/dried.jpg" class="image opacity-min" alt="Ingredient Heap" style="width:90%">
     </div>
   </div>
 
   <hr>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
+  <div class="container padding-32" id="contact">
+    <h3>Contact Us</h3><br>
     <form action="mailto:soupmasters_kitchencaterer@protonmail.com" method="post" enctype="text/plain">
       <label for="fname">Full Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -101,12 +97,12 @@ h1, h2, h3, h4, h5, h6 {
     </form>
   </div>
 
-<!-- End page content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-padding-small w3-blue-grey padding32">
-  <p style="font-family: cursive; font-size: 40px">"The Simpler the food, the harder it is to prepare well" - Gordon Ramsay</p>
+<br>
+<footer class="padding blue-grey padding32">
+  <p style="font-family: cursive; font-size: 34px" class="cent">"The Simpler the food, the harder it is to prepare well" - Gordon Ramsay</p>
 </footer>
 
 </body>

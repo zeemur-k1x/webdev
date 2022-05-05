@@ -1,0 +1,116 @@
+
+body{margin:0}
+article,aside,details,figcaption,figure,header,main,menu,nav,section{display:block}summary{display:list-item}
+.center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+.cent{text-align: center;}
+a{background-color:transparent}a:active,a:hover{outline-width:0}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+
+b, strong {
+  font-weight:bolder
+  }
+
+mark {
+      background:#ff0;color:#000
+  }
+
+html,body{font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0;   font-family: "Playfair Display";
+  letter-spacing: 5px;}.wide{letter-spacing:4px}
+h1,h2{text-decoration: underline lightgrey ;}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
+.button,.button2{border:none;display:inline;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;cursor:pointer;white-space:normal}
+
+.bar{width:100%;overflow:hidden}.center .bar{display:inline-block;width:150px; height:100px}
+.bar .menubar{padding:6px 20px;float:left;width:auto;display:inline-block;outline:0}
+.bar {position:relative;float:left}
+.bar .button{white-space:normal}
+.bar .button2{white-space:normal}
+
+.container:after,.container:before,.row:after,.row:before,.bar:before,.bar:after {
+  content:"";
+  display:table;
+  clear:both
+}
+.col{float:left;width:100%}
+
+
+.col.m6{width:49.99999%}
+
+.col.l6{width:49.99999%}
+
+.content{margin-left:auto;margin-right:auto}.content{max-width:980px}
+
+@media (max-width:10px){.modal-content{margin:0 10px;width:0}
+
+.button, .button2{width:200%}{height:400%}}
+@media (max-width:768px){.modal-content{width:500px}.modal{padding-top:50px}}
+@media (min-width:993px){.modal-content{width:900px}.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.hide-medium{display:none!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}.auto{max-width:100%}}
+.top,.bottom{position:fixed;width:100%;z-index:1}.top{top:0}.bottom{bottom:0}
+
+.display-container:hover .display-hover{display:block}.display-container:hover span.display-hover{display:inline-block}.display-hover{display:none}
+.round{border-radius:4px}
+.col{padding:0 8px}
+.container{padding:0.01em 16px}
+.card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 12px 10px 0 rgba(0,0,0,0.12)}
+
+.opacity{opacity:0.60}
+.opacity-min{opacity:0.75}
+.small{font-size:12px!important}.medium{font-size:15px!important}.large{font-size:18px!important}
+.xxlarge{font-size:36px!important}
+.left-align{text-align:left!important}.right-align{text-align:right!important}.center{text-align:center!important}
+
+.topbar{border-top:6px solid #ccc!important}.bottombar{border-bottom:6px solid #ccc!important}
+.leftbar{border-left:6px solid #ccc!important}.rightbar{border-right:6px solid #ccc!important}
+.padding-small{padding:4px 8px!important}.padding{padding:8px 16px!important}.padding-large{padding:12px 24px!important}
+.padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.padding-164{padding-top:164px!important;padding-bottom:164px!important}
+
+.padding32{padding-top:32px!important}
+.left{float:left!important}.right{float:right!important}
+.button:hover{color:#000!important;background-color:#ccc!important}
+.button2:hover{color:#000!important;background-color:#ccc!important;height:93.6px}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.blue-grey{color:#fff!important;background-color:#607d8b!important}
+.white{color:#000!important;background-color:#fff!important}
+
+.text-grey{color:#757575!important}
