@@ -1,68 +1,113 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Soup Kitchen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="codemirror.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
 
-  <head>
-    <meta charset ="UTF-8">
-    <meta name ="description" content="Souper">
-    <title>Souper Bros</title>
-  </head>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="menubar w3-button"><img src="ca_soup.png" alt="Soup Kitchen" width="173.5" height="81.5"></a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="right w3-hide-small">
+      <a href="#about" class="menubar w3-button">About</a>
+      <a href="#menu" class="menubar w3-button">Menu</a>
+      <a href="#contact" class="menubar w3-button">Contact</a>
+    </div>
+  </div>
+</div>
 
-  <body style="background-color:blanchedalmond;">
-    <header>
-      <nav display="inline-block">
-        <li>About</li>
-        <li>Contact</li>
-      </nav>
-    </header>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="soupagain.png" alt="Soup Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge"></h1>
+  </div>
+</header>
 
-    <main>
-      <article>
-        <section>
-          <aside>
-          </aside>
-        </section>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
 
-        <section>
-        </section>
-      </article>
-    </main>
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="mexbeansoup.png" class="w3-round w3-image w3-opacity-min" alt="Tabled" width="600" height="750">
+    </div>
 
-    <footer>
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center"></h1><br>
+      <h2 class="w3-center">About Us</h2>
+      <h5 class="w3-center">Too few cooks</h5>
+      <p class="w3-large">Our catering service consists two chefs and a specialized menu themed around preparation of legumes and nuts. The ingredients listed under each menu item are subject to change upon request.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">We also do local deliveries.</p>
+    </div>
+  </div>
 
-    </footer>
+  <hr>
 
-    <h1 style="color: chartreuse;">Souper Bros: Catering Soups Near You</h1>
-    <hr/>
-    <br/>
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Black-eyed pea</h4>
+      <p class="w3-text-grey">Light consistency of peas, coconut milk, vegetable stock, bell peppers and leeks</p><br>
 
-    <p style="color: crimson;" align="center"><big>Hello</big>, We're <em><big>Soup Chefs</big></em> who'd love to make soup for you</p>
-    <p style="color: brown;" align="center">Our soups come in the dozens, in fact, a dozen raised 10<sup>0</sup></p>
+      <h4>Tuscan bean</h4>
+      <p class="w3-text-grey">Hearty and substantial soup made with cannellini beans, baby spinach leaves, spring greens, chicken stock, carrots and onion</p><br>
 
-    <a href="https://en.wikipedia.org/wiki/Soup" target="_blank"> Soup for the Soul</a>
-    <a href="pg2.html">Soup Recipes</a>
-    <img height="400" src="https://media.istockphoto.com/photos/vegetable-soup-picture-id1092632852?k=20&m=1092632852&s=612x612&w=0&h=ewsOVIVzqVKQcapu14UluNDwoIyf3Yq_R6U2Q8Xt2CY=" alt="Dish of the Day"/>
+      <h4>Bean and rosemary</h4>
+      <p class="w3-text-grey">Robust, garlicky and fragrant soup with rosemary, sage, potatoes, borlotti bean, celery ribs, chicken stock and onion</p><br>
 
-<hr/>
-<br/>
-    <ol type="i">
-      <li>Split pea soup</li>
-      <ol>
-        <li>2 cans of split peas</li>
-        <li>1 can of tomato paste</li>
-      </ol>
-      <li>Red kidney bean soup</li>
-      <li>Chili lime soup</li>
-    </ol>
+      <h4>Mexican chili bean</h4>
+      <p class="w3-text-grey">Thick, family soup with ground beef, hot chili powder, chicken or vegetable stock on request, parsley, oregano, bell pepper and onion</p><br>
 
+      <h4>Creamy kidney bean</h4>
+      <p class="w3-text-grey">Full flavor kidney beans soaked overnight, made with red onion, garlic, ginger, green chile, lime juce and for garnish, red radish and cilantro leaves</p>
+    </div>
 
-    <!--<input type="text" value="Enter Suggestions Here" /> -->
+    <div class="w3-col l6 w3-padding-large">
+      <img src="dried.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:90%">
+    </div>
+  </div>
 
-    <textarea>
+  <hr>
 
-    </textarea>
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <form action="mailto:soupmasters_kitchencaterer@protonmail.com" method="post" enctype="text/plain">
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <input type="radio" />
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="mail" placeholder="Your e-mail..">
 
-  </body>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-small w3-blue-grey padding32">
+  <p style="font-family: cursive; font-size: 40px">"The Simpler the food, the harder it is to prepare well" - Gordon Ramsay</p>
+</footer>
+
+</body>
 </html>
